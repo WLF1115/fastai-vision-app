@@ -8,9 +8,9 @@ from fastai.vision import *
 from fastai import *
 import base64
 
-model_file_url = 'https://github.com/pankymathur/Fine-Grained-Clothing-Classification/blob/master/data/cloth_categories/models/stage-1_sz-150.pth?raw=true'
-model_file_name = 'model.pth'
-classes = ['Blouse', 'Blazer', 'Button-Down', 'Bomber', 'Anorak', 'Tee', 'Tank', 'Top', 'Sweater', 'Flannel', 'Hoodie', 'Cardigan', 'Jacket', 'Henley', 'Poncho', 'Jersey', 'Turtleneck', 'Parka', 'Peacoat', 'Halter', 'Skirt', 'Shorts', 'Jeans', 'Joggers', 'Sweatpants', 'Jeggings', 'Cutoffs', 'Sweatshorts', 'Leggings', 'Culottes', 'Chinos', 'Trunks', 'Sarong', 'Gauchos', 'Jodhpurs', 'Capris', 'Dress', 'Romper', 'Coat', 'Kimono', 'Jumpsuit', 'Robe', 'Caftan', 'Kaftan', 'Coverup', 'Onesie']
+model_file_url = 'https://www.googleapis.com/drive/v3/files/1-ADYcRh-48dfqY25X19QRpAt-rJtzvk7?alt=media&key=AIzaSyD8d2Sr6B9_EN-lXTptbXK5qM3q7skbgLg'
+model_file_name = 'Stage_5.pth'
+classes = ['Beaker', 'Florence flask', 'Petri dish', 'Burette', 'Funnels', 'Test tube', 'Coplin jar','Graduated cylinder', 'Volumetric flask', 'Desiccator','Graham condenser', 'Erlenmeyer flask', 'Liebig condenser']
 
 path = Path(__file__).parent
 
